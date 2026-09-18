@@ -6,11 +6,12 @@ Duracion sugerida: 3 a 4 semanas.
 
 ## Como empezar
 
-1. Abre `ejercicios/01_vectores.py`: el enunciado y las explicaciones estan al principio.
+1. Completa los ejercicios en orden. El enunciado y las explicaciones estan al principio de cada archivo.
 2. Ejecuta el ejercicio:
 
 ```bash
 python3 ejercicios/01_vectores.py
+python3 ejercicios/02_matrices.py
 ```
 
 3. Modifica el archivo y vuelve a ejecutarlo.
