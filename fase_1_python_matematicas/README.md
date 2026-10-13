@@ -12,6 +12,7 @@ Duracion sugerida: 3 a 4 semanas.
 ```bash
 python3 ejercicios/01_vectores.py
 python3 ejercicios/02_matrices.py
+python3 ejercicios/03_funciones_y_derivadas.py
 ```
 
 3. Modifica el archivo y vuelve a ejecutarlo.
