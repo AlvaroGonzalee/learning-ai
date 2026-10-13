@@ -13,9 +13,19 @@ Duracion sugerida: 3 a 4 semanas.
 python3 ejercicios/01_vectores.py
 python3 ejercicios/02_matrices.py
 python3 ejercicios/03_funciones_y_derivadas.py
+python3 ejercicios/04_probabilidad_basica.py
+python3 ejercicios/05_media_varianza_y_distribuciones.py
 ```
 
 3. Modifica el archivo y vuelve a ejecutarlo.
+
+## Ejercicios
+
+- 01: vectores y una neurona simple.
+- 02: matrices y matrices por vectores.
+- 03: funciones y derivadas numericas de una recta, un cuadrado y un cubo.
+- 04: probabilidad basica, eventos independientes, probabilidad condicionada y simulacion.
+- 05: media, varianza poblacional, desviacion estandar y distribuciones uniforme y normal.
 
 ## Meta de la fase
 
