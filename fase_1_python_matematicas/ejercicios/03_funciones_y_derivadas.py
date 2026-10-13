@@ -73,6 +73,13 @@ if __name__ == "__main__":
     print("x:", x)
     print("Funcion lineal 2x + 1:", funcion_lineal(x, 2, 1))
     print("Cuadrado de x:", cuadrado(x))
+    # creo una funcion con un solo parametro para poder pasarla a derivada_numerica
+    def lineal_ejemplo(x):
+        return funcion_lineal(x, 2, 1)
+
+    # en la recta, por cada unidad que aumento x la salida aumenta 2
+    print("Derivada de 2x + 1:", derivada_numerica(lineal_ejemplo, x))
+    print("Resultado esperado: aproximadamente 2")
     # paso cuadrado sin parentesis porque quiero pasar la funcion, no su resultado
     # la derivada de x al cuadrado es 2 * x, asi que con x = 3 me tiene que dar casi 6
     print(f"Derivada de x cuadrado en x = {x}:", derivada_numerica(cuadrado, x))
